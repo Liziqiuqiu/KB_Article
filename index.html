@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hi this is the knowledge base article</h1>
+    <div>echo "# KB_Article" >> README.md
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/Liziqiuqiu/KB_Article.git
+        git push -u origin main
+    </div>
+    <div class="quiz"></div>
+    <script src="truefalse.js"></script>
+    <script>
+          createTrueFalseQuiz(
+            'Is the Earth round?', // Question
+            'True',                // True option
+            'False',               // False option
+            'true'                 // Correct answer
+  );
+    </script>
+</body>
+</html>
